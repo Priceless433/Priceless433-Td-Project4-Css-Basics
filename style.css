@@ -1,0 +1,81 @@
+header .mercy{display: flex;
+justify-content: space-between;
+padding:20px ;
+background-color: aqua;
+background-image: url(download.jpeg);
+position:relative;
+background-size: cover;
+background-repeat: no-repeat;
+}
+header h1{
+    margin-top: 0px;
+}
+header .mercy .mercy_item{
+    padding: 20px;
+    width: 30%;
+    background-color: antiquewhite;
+    box-shadow: 1px 1px 30px rgb (0 0 0/ 10%);
+border-radius: 15px;
+transition: .3s ease-in ;
+}
+header .mercy .mercy_item:hover{
+     box-shadow: 1px 1px 50px rgb(0 0 0/ 30%);
+    color: #ffffff;
+}
+header .mercy .mercy_item h2{
+    color: #000838;
+}
+section .mercy_color div{
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0px 15px 15px 15px;
+    border-radius: 10px;
+}
+
+section .mercy_color{
+    display:flex;
+    justify-content: space-between;
+}
+h2 .color_type{
+    color: gray;
+    font-size: 16px;
+}
+.mercy_color.name div:nth-child(1){
+    background-color: tomato;
+  }
+  .mercy_color.name div:nth-child(2){
+    background-color: orange;
+  }
+  .mercy_color.name div:nth-child(3){
+    background-color: dodgerBlue;
+  }
+  .mercy_color.hex div:nth-child(1){
+    background-color: #ff6347;
+  }
+  .mercy_color.hex div:nth-child(2){
+    background-color: #ffa500;
+  }
+  .mercy_color.hex div:nth-child(3){
+    background-color: #1e90ff;
+  }
+  .mercy_color.rgb div:nth-child(1){
+    background-color: rgb(255 99 71);
+  }
+  .mercy_color.rgb div:nth-child(2){
+    background-color: rgb(255 165 0);
+  }
+  .mercy_color.rgb div:nth-child(3){
+    background-color: rgb(30 144 255);
+  }
+  .mercy_color.hsl div:nth-child(1){
+    background-color: hsl(9deg 100% 64%);
+  }
+  .mercy_color.hsl div:nth-child(2){
+    background-color: hsl(39deg 100% 50%);
+  }
+  .mercy_color.hsl div:nth-child(3){
+    background-color: hsl(210deg 100% 56%);
+  }
+
